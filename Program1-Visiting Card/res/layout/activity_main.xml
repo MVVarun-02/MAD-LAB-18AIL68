@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="100dp"
+            android:text="Company"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="154dp"
+            android:layout_height="140dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="53dp"
+            android:layout_marginEnd="26dp"
+            app:srcCompat="@drawable/img123"
+            tools:srcCompat="@drawable/img123" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_marginTop="120dp"
+        android:layout_height="46dp"
+        android:text="Name"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#7B0B8E"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="Position"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#7B0B8E"
+        android:textSize="34sp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/purple_500"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="9876543210"
+        android:textAlignment="center"
+        android:textColor="#488105"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="India"
+        android:textAlignment="center"
+        android:textColor="#1992F3"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:text="mail@gmail.com"
+        android:textAlignment="center"
+        android:textColor="#EF440E"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="www.website.com"
+        android:textAlignment="center"
+        android:textColor="#EF440E"
+        android:textSize="28sp" />
+
+</LinearLayout>
